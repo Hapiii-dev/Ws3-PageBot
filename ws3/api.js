@@ -61,8 +61,8 @@ module.exports = {
   temp,
   prefix,
   admin: [
-"8439419946124905",
-"9353065101379295"
+"100061663298126",
+"61565897880759"
 ],
   async sendMessage(senderId, message, pageAccessToken) {
     return await new Promise(async (resolve, reject) => {
@@ -104,11 +104,11 @@ module.exports = {
     resolve(res.data);
     });
   },
-  introduction: `Hello, I am WieAI and I am your assistant.
+  introduction: `Hello, I am HAPi Ai and I am your assistant.
 Type ${prefix}help for available commands.
 
-Note: WieAI is highly recommended to use Messenger because some features won't work and limited.
-🤖 Created by Neth Aceberos`,
+Note: HAPi is highly recommended to use Messenger because some features won't work and limited.
+🤖 Created by Jervie Macapagal`,
   api_josh: "https://deku-rest-apis.ooguy.com",
   echavie: "https://echavie3.nethprojects.workers.dev"
 }
