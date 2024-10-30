@@ -5,7 +5,7 @@ module.exports = {
       attachment: {
         type: "image",
         payload: {
-          url: "https://ibb.co/gzjjT8b",
+          url: "https://i.imgur.com/CLnim7D.png",
           is_reusable: true
         }
       }
