@@ -1,11 +1,11 @@
 module.exports = {
-  description: "What is WieAI?",
+  description: "What is HAPi Ai",
   async run({ api, send, admin }){
     await send({
       attachment: {
         type: "image",
         payload: {
-          url: "https://i.imgur.com/gw1V46p.jpeg",
+          url: "https://ibb.co/gzjjT8b",
           is_reusable: true
         }
       }
@@ -15,26 +15,24 @@ module.exports = {
         type: "template",
         payload: {
           template_type: "button",
-          text: `🤖 About WieAI:
-WieAI is your friendly, helpful personal assistant.
+          text: `About HAPi Ai:
+HAPi Ai is your friendly, helpful personal assistant.
 
-💭 Why I named WieAI as a name of the page bot because this is dedicated to my girlfriend itself 👸
-
-❓ Contact us admins if you experienced/encountered any issue regarding to the bot and I will try to fix it. Thankyou for using me as a personal assistant!`,
+Contact us admins if you experienced/encountered any issue regarding to the bot and I will try to fix it. Thankyou for using me as a personal assistant!`,
           buttons: [
             {
               type: "web_url",
-              url: "https://www.facebook.com/profile.php?id=61566907376981",
+              url: "https://www.facebook.com/profile.php?id=61567254512779",
               title: "Like/Follow our Page"
                 },
             {
               type: "web_url",
-              url: "https://www.facebook.com/kennethfranciscoaceberos",
+              url: "https://www.facebook.com/im.mentallyunstable.bro",
               title: "Contact Admin 1"
                 },
             {
               type: "web_url",
-              url: "https://www.facebook.com/wieginesalpocialechavez",
+              url: "https://www.facebook.com/p/マカパガル-ジャーヴィー-61565897880759/",
               title: "Contact Admin 2"
                 }
              ]
