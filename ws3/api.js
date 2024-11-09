@@ -109,6 +109,6 @@ Type ${prefix}help for available commands.
 
 Note: HAPi is highly recommended to use Messenger because some features won't work and limited.
 🤖 Created by Jervie Macapagal`,
-  api_josh: "https://deku-rest-apis.ooguy.com",
+  api_josh: "https://joshweb.click",
   echavie: "https://echavie3.nethprojects.workers.dev"
 }
